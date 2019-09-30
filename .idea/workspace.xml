@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ebb28bc-c6fd-4566-aa2f-a09967dacdb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP MasterChallenge2/com/richard/Bread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP MasterChallenge2/com/richard/Bread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOP MasterChallenge2/com/richard/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP MasterChallenge2/com/richard/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/richard/Bread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/richard/Bread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/richard/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/richard/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +70,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569686511150</updated>
-      <workItem from="1569686514997" duration="6768000" />
+      <workItem from="1569686514997" duration="7455000" />
+      <workItem from="1569783043151" duration="167000" />
+      <workItem from="1569838306329" duration="863000" />
     </task>
     <servers />
   </component>
@@ -81,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

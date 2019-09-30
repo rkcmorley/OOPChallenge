@@ -3,7 +3,8 @@ package com.richard;
 public class Main {
 
     public static void main(String[] args) {
-        Bread bread = new Bread(2, 0.50);
+        Bread bread = new Bread(2, 0.50, "white bread");
+        Bread healthyBread = new Bread(2, 0.50, "brown bread");
         Meat meat = new Meat(3, 1.50);
         Meat deluxeMeat = new Meat(5, 2.50);
         Lettuce lettuce = new Lettuce(4, 0.50);
@@ -15,16 +16,17 @@ public class Main {
 
 
         Burger burger = new Burger(bread, meat, lettuce, tomato);
-        HealthyBurger healthyBurger = new HealthyBurger(bread, meat, lettuce, tomato, carrot, pickle);
+        HealthyBurger healthyBurger = new HealthyBurger(healthyBread, meat, lettuce, tomato, carrot, pickle);
         DeluxeBurger deluxeBurger = new DeluxeBurger(bread, deluxeMeat, lettuce, tomato, carrot, pickle, chips, drinks);
 
-        System.out.println("The amount of bread is " + burger.getBread().getNumOfBread() + " and the total cost of bread is £" + burger.getBread().totalCostOfBread());
+        System.out.println("The type of bread is a " + burger.getBread().getName() + ". The amount of bread is " + burger.getBread().getNumOfBread() + " and the total cost of bread is £" + burger.getBread().totalCostOfBread());
         System.out.println("The amount of meat is " + burger.getMeat().getNumOfMeat() + " and the total cost of meat is £" + burger.getMeat().totalCostOfMeat());
         System.out.println("The amount of lettuce is " + burger.getLettuce().getNumOfLettuce() + " and the total cost of lettuce is £" + burger.getLettuce().totalCostOfLettuce());
         System.out.println("The amount of tomato is " + burger.getTomato().getNumOfTomato() + " and the total cost of tomato is £" + burger.getTomato().totalCostOfTomato() + "\n");
 
         System.out.println("Total cost of the base burger is: £" + burger.totalAmount() + "\n");
 
+        System.out.println("The type of bread is a " + healthyBurger.getBread().getName() + ". The amount of bread is " + healthyBurger.getBread().getNumOfBread() + " and the total cost of bread is £" + healthyBurger.getBread().totalCostOfBread());
         System.out.println("The amount of carrot is " + healthyBurger.getCarrot().getNumOfCarrot() + " and the total cost of carrot is £" + healthyBurger.getCarrot().totalCostOfCarrot());
         System.out.println("The amount of pickle is " + healthyBurger.getPickle().getNumOfPickle() + " and the total cost of pickle is £" + healthyBurger.getPickle().totalCostOfPickle() + "\n");
 
